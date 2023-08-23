@@ -15,7 +15,7 @@ void shell_loop(char **argv, char **environ)
 	{
 		if (isatty(0))
 		{
-			write(1, "$ ", 3);
+			write(1, "$ ", 2);
 		}
 
 		if (_line(&l, &buf_s, 0) == -1)
