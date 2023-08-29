@@ -13,7 +13,7 @@ These procedures are used to operate the "hsh" shell:
 
 5. The shell determines whether the command is one that is pre-built. If so, the associated built-in function is called.
 
-6. In the event that the command is not a built-in, the shell looks for it in the directories listed by the 'PATH' environment variable. The order is carried out if it is located.
+6. In the event that the command is not built-in, the shell looks for it in the directories listed by the 'PATH' environment variable. The order is carried out if it is located.
 
 7. If the command cannot be located in the directories listed by
 
@@ -23,4 +23,4 @@ These procedures are used to operate the "hsh" shell:
 
 10. Until the user departs the shell, the aforementioned actions are repeated.
 
-11. 11. 11. 11. 11. 11. 11. 11. 11. 11. 11. The shell also responds to signals like 'Ctrl+C' (SIGINT) to disregard the keyboard interrupt and 'Ctrl+D' (EOF) to leave the shell.
+11. The shell also responds to signals like 'Ctrl+C' (SIGINT) to disregard the keyboard interrupt and 'Ctrl+D' (EOF) to leave the shell.
