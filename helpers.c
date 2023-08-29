@@ -24,7 +24,7 @@ void handle_sign_sigint(__attribute__((unused)) int sig_t)
 
 	if (sig_t == SIGINT)
 	{
-		_puts("\n"), _puts("$ ");
+		printf("\n$ ");
 	}
 	fflush(stdout);
 }
